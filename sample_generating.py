@@ -15,6 +15,7 @@ if __name__ == "__main__":
     plot = False
     base_save_path = './data/samples/Mnist_32_cond/'
     
+    # Dynamically create the save path using sample_class
     url_save_path = os.path.join(base_save_path, str(sample_class))
 
     # Check model path
